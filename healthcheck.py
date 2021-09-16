@@ -51,7 +51,7 @@ with open(data) as data:
             cv.drawString(NOTA[0]+cdiff[0], NOTA[1]+cdiff[1], '■')
         else:
             for sy in rest:
-                sy = int(sy)-1
+                sy = int(sy)
                 cv.drawString(CHECK[0]+cdiff[0],
                               CHECK[1]+cdiff[1]+TATE*sy, '■')
 
